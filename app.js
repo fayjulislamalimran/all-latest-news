@@ -42,7 +42,7 @@ const displayCard = async (cards) => {
   const cardContainer = document.getElementById("card-container");
   cardContainer.textContent = "";
 
-  // No Found
+  // No found
   const noFound = document.getElementById("no-found");
   noFound.classList.remove("hidden");
   //This is  item count
