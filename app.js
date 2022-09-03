@@ -48,7 +48,7 @@ const displayCard = async (cards) => {
   //Thi is  item count
   const itemCount = document.getElementById("item-found");
   itemCount.innerText = cards.length;
-  //Thi is spinner
+  //This is spinner
   const spinner = document.getElementById("spinner");
   spinner.classList.remove("hidden");
 
@@ -65,7 +65,7 @@ const displayCard = async (cards) => {
     const { _id, title, thumbnail_url, details, author, total_view, rating, category_id } = card;
     const { name, published_date, img } = author;
 
-    //Thi is  spinner
+    //This is  spinner
     const spinner = document.getElementById("spinner");
     spinner.classList.add("hidden");
 
@@ -129,8 +129,8 @@ const showModal = async (id) => {
 `;
 };
 
-// Thi is card load by default
+// This is card load by default
 loadCard("2");
 
-// Thi is load category
+// This is load category
 loadCategory();
