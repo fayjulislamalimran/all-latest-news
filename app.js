@@ -45,7 +45,7 @@ const displayCard = async (cards) => {
   // No Found
   const noFound = document.getElementById("no-found");
   noFound.classList.remove("hidden");
-  //Thi is  item count
+  //This is  item count
   const itemCount = document.getElementById("item-found");
   itemCount.innerText = cards.length;
   //This is spinner
